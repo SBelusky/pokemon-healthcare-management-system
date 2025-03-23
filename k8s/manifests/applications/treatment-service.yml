@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: treatment-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: treatment-service
+  template:
+    metadata:
+      labels:
+        app: treatment-service
+    spec:
+      containers:
+        - name: treatment-service
+          image: treatment-service:latest
+          env:
+            - name: SPRING_DATASOURCE_URL
+              valueFrom:
+                configMapKeyRef:
+                  key: SPRING_DATASOURCE_URL
+                  name: treatment-service-config
+            - name: LOKI_URL
+              valueFrom:
+                configMapKeyRef:
+                  key: LOKI_URL
+                  name: common-config
+            - name: POKEMON_SERVICE_URL
+              valueFrom:
+                configMapKeyRef:
+                  key: POKEMON_SERVICE_URL
+                  name: common-config
+            - name: USER_SERVICE_URL
+              valueFrom:
+                configMapKeyRef:
+                  key: USER_SERVICE_URL
+                  name: common-config
+            - name: MANAGEMENT_ZIPKIN_TRACING_ENDPOINT
+              valueFrom:
+                configMapKeyRef:
+                  key: MANAGEMENT_ZIPKIN_TRACING_ENDPOINT
+                  name: common-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: treatment-service
+spec:
+  selector:
+    app: treatment-service
+  ports:
+    - protocol: TCP
+      port: 8085
+      targetPort: 8085
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: treatment-service-config
+data:
+  SPRING_DATASOURCE_URL: "jdbc:mysql://mysql.default.svc.cluster.local:3306/treatment"

@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "PokemonCreatedEvent",
+  "namespace": "com.sbelusky.microservices.pokemon_service.event",
+  "fields": [
+    { "name": "ownerId", "type": ["null", "long"], "default": null },
+    { "name": "ownerEmail", "type": "string" },
+    { "name": "name", "type": "string" }
+  ]
+}

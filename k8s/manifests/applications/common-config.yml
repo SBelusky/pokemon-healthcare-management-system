@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: common-config
+data:
+  LOKI_URL: "http://loki.default.svc.cluster.local:3100/loki/api/v1/push"
+  MANAGEMENT_ZIPKIN_TRACING_ENDPOINT: "http://tempo.default.svc.cluster.local:9411"
+  POKEMON_SERVICE_URL: "http://pokemon-service.default.svc.cluster.local:8081"
+  USER_SERVICE_URL: "http://user-service.default.svc.cluster.local:8082"
+  POKEMON_CENTER_SERVICE_URL: "http://pokemon-center-service.default.svc.cluster.local:8083"
+  APPOINTMENT_SERVICE_URL: "http://appointment-service.default.svc.cluster.local:8084"
+  TREATMENT_SERVICE_URL: "http://treatment-service.default.svc.cluster.local:8085"
+  SPRING_KAFKA_BOOTSTRAP-SERVERS: "broker.default.svc.cluster.local:29092"

@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "AppointmentCreatedEvent",
+  "namespace": "com.sbelusky.microservices.appointment_service.event",
+  "fields": [
+    { "name": "ownerId", "type": ["null", "long"], "default": null },
+    { "name": "ownerEmail", "type": "string" },
+    { "name": "pokemonName", "type": "string" },
+    { "name": "appointmentDate", "type": "string" }
+  ]
+}

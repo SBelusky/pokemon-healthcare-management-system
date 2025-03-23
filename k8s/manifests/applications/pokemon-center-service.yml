@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pokemon-center-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pokemon-center-service
+  template:
+    metadata:
+      labels:
+        app: pokemon-center-service
+    spec:
+      containers:
+        - name: pokemon-center-service
+          image: pokemon-center-service:latest
+          env:
+            - name: SPRING_DATA_MONGODB_URI
+              valueFrom:
+                configMapKeyRef:
+                  key: SPRING_DATA_MONGODB_URI
+                  name: pokemon-center-service-config
+            - name: LOKI_URL
+              valueFrom:
+                configMapKeyRef:
+                  key: LOKI_URL
+                  name: common-config
+            - name: MANAGEMENT_ZIPKIN_TRACING_ENDPOINT
+              valueFrom:
+                configMapKeyRef:
+                  key: MANAGEMENT_ZIPKIN_TRACING_ENDPOINT
+                  name: common-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pokemon-center-service
+spec:
+  selector:
+    app: pokemon-center-service
+  ports:
+    - protocol: TCP
+      port: 8083
+      targetPort: 8083
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pokemon-center-service-config
+data:
+  SPRING_DATA_MONGODB_URI: "mongodb://root:password@localhost:27017/pokemon-center-service?authSource=admin&connectTimeoutMS=18000000&socketTimeoutMS=18000000"
