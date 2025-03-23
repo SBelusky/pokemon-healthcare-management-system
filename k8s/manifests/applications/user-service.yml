@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: user-service:latest
+          image: sbelusky/user-service:latest
           env:
             - name: SPRING_DATASOURCE_URL
               valueFrom:

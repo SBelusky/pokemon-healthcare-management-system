@@ -26,13 +26,33 @@
   <properties>
     <java.version>23</java.version>
     <spring-cloud.version>2024.0.0</spring-cloud.version>
+    <dockerPassword>dckr_pat_hrCDgukQ1fz948-6MNoUykX2OAY</dockerPassword>
   </properties>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <image>
+                        <name>sbelusky/${project.artifactId}</name>
+                        <builder>paketobuildpacks/builder:tiny</builder>
+                        <publish>true</publish>
+                    </image>
+                    <docker>
+                        <publishRegistry>
+                            <username>sbelusky</username>
+                            <password>${dockerPassword}</password>
+                        </publishRegistry>
+                    </docker>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

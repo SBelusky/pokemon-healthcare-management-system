@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: pokemon-center-service
-          image: pokemon-center-service:latest
+          image: sbelusky/pokemon-center-service:latest
           env:
             - name: SPRING_DATA_MONGODB_URI
               valueFrom:

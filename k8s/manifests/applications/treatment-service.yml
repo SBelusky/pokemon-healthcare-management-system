@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: treatment-service
-          image: treatment-service:latest
+          image: sbelusky/treatment-service:latest
           env:
             - name: SPRING_DATASOURCE_URL
               valueFrom:
