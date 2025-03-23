@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="23" />
+      <module name="appointment-service" target="23" />
+      <module name="notification-service" target="23" />
+      <module name="pokemon-center-service" target="23" />
+      <module name="pokemon-healthcare-management-system" target="1.5" />
+      <module name="pokemon-service" target="23" />
+      <module name="treatment-service" target="23" />
+      <module name="user-service" target="23" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

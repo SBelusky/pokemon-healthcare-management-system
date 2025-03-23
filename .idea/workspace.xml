@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ece01bc-1475-4e63-a6ef-c5f3c8eb25e9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Samuel Beluský" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2u2NTgfFh9Aj4fVJQExLYVgRgk9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PokemonCenterServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PokemonCenterServiceApplicationTests.shouldGetPokemonCenterById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.appointment_service in appointment-service.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in appointment-service.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in pokemon-center-service.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in pokemon-service.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.pokemon_center_service in pokemon-center-service.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.pokemon_service in pokemon-service.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.user_service in user-service.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pokemon-healthcare-center [org.springframework.boot:spring-boot-maven-plugin:3.4.3:build-image].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pokemon-healthcare-center [spring-boot:build-image].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pokemon-healthcare-management-system [spring-boot:build-image...].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programovanie/phms/backend/pokemon-healthcare-management-system&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17578125&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3143535&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programovanie\phms\backend\pokemon-healthcare-center" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn spring-boot:build-image" />
+      <command value="mvn spring-boot:build-image -DskipTests -DdockerPassword=dckr_pat_hrCDgukQ1fz948-6MNoUykX2OAY" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.pokemon_service in pokemon-service">
+    <configuration default="true" type="Application" factoryName="Application">
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <shortenClasspath name="MANIFEST" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appointment_service in appointment-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appointment-service" />
+      <shortenClasspath name="MANIFEST" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/appointment-service/src/test/java/com/sbelusky/microservices/appointment_service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in pokemon-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokemon-service" />
+      <shortenClasspath name="MANIFEST" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/pokemon-service/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pokemon_center_service in pokemon-center-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokemon-center-service" />
+      <shortenClasspath name="MANIFEST" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/pokemon-center-service/src/test/java/com/sbelusky/microservices/pokemon_center_service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pokemon_service in pokemon-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokemon-service" />
+      <shortenClasspath name="MANIFEST" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/pokemon-service/src/test/java/com/sbelusky/microservices/pokemon_service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="user_service in user-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <shortenClasspath name="MANIFEST" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/user-service/src/test/java/com/sbelusky/microservices/user_service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.pokemon_service in pokemon-service" />
+        <item itemvalue="JUnit.java in pokemon-service" />
+        <item itemvalue="JUnit.appointment_service in appointment-service" />
+        <item itemvalue="JUnit.pokemon_center_service in pokemon-center-service" />
+        <item itemvalue="JUnit.user_service in user-service" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ece01bc-1475-4e63-a6ef-c5f3c8eb25e9" name="Changes" comment="" />
+      <created>1741442718528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741442718528</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1742740248339</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742740248339</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add .gitignore file">
+      <option name="closed" value="true" />
+      <created>1742740479675</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742740479675</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add api-gateway and appointment-service">
+      <option name="closed" value="true" />
+      <created>1742740748867</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742740748867</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add user-service, treatment-service and pokemon-service">
+      <option name="closed" value="true" />
+      <created>1742740929274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742740929274</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add pokemon-center-service">
+      <option name="closed" value="true" />
+      <created>1742741065735</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742741065735</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update README.md file">
+      <option name="closed" value="true" />
+      <created>1742749896912</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742749896912</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Add .gitignore file" />
+    <MESSAGE value="Add api-gateway and appointment-service" />
+    <MESSAGE value="Add user-service, treatment-service and pokemon-service" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Add pokemon-center-service" />
+    <MESSAGE value="Update README.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md file" />
+  </component>
+</project>

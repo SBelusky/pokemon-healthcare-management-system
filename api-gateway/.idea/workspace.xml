@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23a817ed-c074-4dbf-9c91-2b9b9339f86e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="PokemonServiceApplicationTests.shouldCreatePokemon" />
+    </enabled-run-configurations>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2tUOpPCesIQ1vHeSJ2W4q8ZS2hM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApiGatewayApplication.executor": "Run",
+    "Application.AppointmentServiceApplication.executor": "Run",
+    "Application.NotificationServiceApplication.executor": "Run",
+    "Application.PokemonCenterServiceApplication.executor": "Run",
+    "Application.PokemonServiceApplication.executor": "Run",
+    "Application.TestPokemonCenterServiceApplication.executor": "Run",
+    "Application.TestUserServiceApplication.executor": "Run",
+    "Application.TreatmentServiceApplication.executor": "Run",
+    "Application.UserServiceApplication.executor": "Run",
+    "Attach to process.pid 19672.executor": "ProcessAttachDebug",
+    "Attach to process.pid 7576.executor": "ProcessAttachDebug",
+    "JUnit.AppointmentServiceApplicationTests.executor": "Run",
+    "JUnit.AppointmentServiceApplicationTests.shouldCreateAppointment.executor": "Run",
+    "JUnit.AppointmentServiceApplicationTests.shouldGetUserByEmail.executor": "Run",
+    "JUnit.PokemonCenterServiceApplicationTests.shouldCreatePokemonCenter.executor": "Run",
+    "JUnit.PokemonServiceApplicationTests.executor": "Run",
+    "JUnit.PokemonServiceApplicationTests.shouldCreatePokemon.executor": "Run",
+    "JUnit.PokemonServiceApplicationTests.shouldGetPokemonById.executor": "Run",
+    "JUnit.UserServiceApplicationTests.executor": "Run",
+    "JUnit.UserServiceApplicationTests.shouldCreateUser.executor": "Run",
+    "JUnit.UserServiceApplicationTests.shouldGetUserByEmail.executor": "Run",
+    "JUnit.UserServiceApplicationTests.testrandom.executor": "Run",
+    "JUnit.appointment_service in appointment-service.executor": "Run",
+    "JUnit.com.sbelusky.microservices.treatment_service in treatment-service.executor": "Run",
+    "JUnit.java in pokemon-center-service.executor": "Run",
+    "JUnit.java in user-service.executor": "Run",
+    "JUnit.pokemon_center_service in pokemon-center-service.executor": "Run",
+    "JUnit.pokemon_service in pokemon-service.executor": "Run",
+    "JUnit.user_service in user-service.executor": "Run",
+    "Maven.treatment-service [clean].executor": "Run",
+    "Maven.treatment-service [compile].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Programovanie/phms/backend/treatment-service/src/test/resources",
+    "onboarding.tips.debug.path": "D:/Programovanie/phms/backend/notification-service/appointment-service/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.1484375",
+    "project.structure.side.proportion": "0.25674218",
+    "settings.editor.selected.configurable": "preferences.editor"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sbelusky.microservices.treatment_service.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programovanie\phms\backend\treatment-service\src\test\resources" />
+      <recent name="D:\Programovanie\phms\backend\appointment-service\src\test\resources" />
+      <recent name="D:\Programovanie\phms\backend\pokemon-service\src\test\resources" />
+      <recent name="D:\Programovanie\phms\backend\pokemon-center-service\src\test\resources" />
+      <recent name="D:\Programovanie\phms\backend\user-service\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programovanie\phms\backend\pokemon-center-service\docker\mongodb" />
+      <recent name="D:\Programovanie\phms\backend\treatment-service\docker\mysql" />
+      <recent name="D:\Programovanie\phms\backend\user-service\docker\mysql" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sbelusky.microservices.user_service" />
+      <recent name="com.sbelusky.microservices.user_service.config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sbelusky.microservices.treatment_service.stub" />
+      <recent name="com.sbelusky.microservices.appointment_service.stub" />
+      <recent name="com.sbelusky.microservices.appointment_service.config" />
+      <recent name="com.sbelusky.microservices.pokemon_center_service.config" />
+      <recent name="com.sbelusky.microservices.pokemon_service.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.com.sbelusky.microservices.treatment_service in treatment-service">
+    <configuration name="TreatmentServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sbelusky.microservices.treatment_service.TreatmentServiceApplication" />
+      <module name="treatment-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbelusky.microservices.treatment_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppointmentServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appointment-service" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbelusky.microservices.appointment_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sbelusky.microservices.appointment_service" />
+      <option name="MAIN_CLASS_NAME" value="com.sbelusky.microservices.appointment_service.AppointmentServiceApplicationTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppointmentServiceApplicationTests.shouldCreateAppointment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appointment-service" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbelusky.microservices.appointment_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sbelusky.microservices.appointment_service" />
+      <option name="MAIN_CLASS_NAME" value="com.sbelusky.microservices.appointment_service.AppointmentServiceApplicationTests" />
+      <option name="METHOD_NAME" value="shouldCreateAppointment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <shortenClasspath name="MANIFEST" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appointment_service in appointment-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appointment-service" />
+      <shortenClasspath name="MANIFEST" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/../appointment-service/src/test/java/com/sbelusky/microservices/appointment_service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.sbelusky.microservices.treatment_service in treatment-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="treatment-service" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbelusky.microservices.treatment_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sbelusky.microservices.treatment_service" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Java Scratch">
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TreatmentServiceApplication" />
+      <item itemvalue="JUnit.AppointmentServiceApplicationTests" />
+      <item itemvalue="JUnit.AppointmentServiceApplicationTests.shouldCreateAppointment" />
+      <item itemvalue="JUnit.appointment_service in appointment-service" />
+      <item itemvalue="JUnit.com.sbelusky.microservices.treatment_service in treatment-service" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.sbelusky.microservices.treatment_service in treatment-service" />
+        <item itemvalue="JUnit.appointment_service in appointment-service" />
+        <item itemvalue="Application.TreatmentServiceApplication" />
+        <item itemvalue="JUnit.AppointmentServiceApplicationTests" />
+        <item itemvalue="JUnit.AppointmentServiceApplicationTests.shouldCreateAppointment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23a817ed-c074-4dbf-9c91-2b9b9339f86e" name="Changes" comment="" />
+      <created>1740403369082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740403369082</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../notification-service/appointment-service/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
