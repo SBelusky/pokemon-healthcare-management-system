@@ -1,4 +1,4 @@
 # Build files
-target/
+**/target/
 *.jar
 *.war

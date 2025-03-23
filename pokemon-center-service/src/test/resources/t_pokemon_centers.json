@@ -1,0 +1,122 @@
+[
+  {
+    "_id": 0,
+    "title": "Pokemon Center Senica",
+    "city": "Senica",
+    "street": "Dolnohorniarska 199",
+    "country": "Slovakia",
+    "phone_number": "+421 948 775 092",
+    "email": "pokemon.center.senica@info.sk",
+    "specialization": "All types",
+    "created_at": "2025-02-09T11:39:07.853+0000",
+    "_class": "com.sbelusky.microservices.pokemon_center_service.model.PokemonCenter"
+  },
+  {
+    "_id": 1,
+    "title": "Pokemon Center Bratislava",
+    "city": "Bratislava",
+    "street": "Hlavná 12",
+    "country": "Slovakia",
+    "phone_number": "+421 902 123 456",
+    "email": "pokemon.center.bratislava@info.sk",
+    "specialization": "Electric, Water",
+    "created_at": "2025-02-10T09:15:30.123+0000",
+    "_class": "com.sbelusky.microservices.pokemon_center_service.model.PokemonCenter"
+  },
+  {
+    "_id": 2,
+    "title": "Pokemon Center Košice",
+    "city": "Košice",
+    "street": "Štúrova 45",
+    "country": "Slovakia",
+    "phone_number": "+421 915 987 654",
+    "email": "pokemon.center.kosice@info.sk",
+    "specialization": "Fire, Fighting",
+    "created_at": "2025-02-11T14:20:45.456+0000",
+    "_class": "com.sbelusky.microservices.pokemon_center_service.model.PokemonCenter"
+  },
+  {
+    "_id": 3,
+    "title": "Pokemon Center Žilina",
+    "city": "Žilina",
+    "street": "Námestie Slobody 9",
+    "country": "Slovakia",
+    "phone_number": "+421 944 333 222",
+    "email": "pokemon.center.zilina@info.sk",
+    "specialization": "Grass, Bug",
+    "created_at": "2025-02-12T16:50:12.789+0000",
+    "_class": "com.sbelusky.microservices.pokemon_center_service.model.PokemonCenter"
+  },
+  {
+    "_id": 4,
+    "title": "Pokemon Center Nitra",
+    "city": "Nitra",
+    "street": "Mlynská 27",
+    "country": "Slovakia",
+    "phone_number": "+421 948 222 111",
+    "email": "pokemon.center.nitra@info.sk",
+    "specialization": "Psychic, Ghost",
+    "created_at": "2025-02-13T10:05:55.999+0000",
+    "_class": "com.sbelusky.microservices.pokemon_center_service.model.PokemonCenter"
+  },
+  {
+    "_id": 5,
+    "title": "Pokemon Center Prešov",
+    "city": "Prešov",
+    "street": "Jarková 3",
+    "country": "Slovakia",
+    "phone_number": "+421 951 555 777",
+    "email": "pokemon.center.presov@info.sk",
+    "specialization": "Dragon, Fairy",
+    "created_at": "2025-02-14T08:40:20.543+0000",
+    "_class": "com.sbelusky.microservices.pokemon_center_service.model.PokemonCenter"
+  },
+  {
+    "_id": 6,
+    "title": "Pokemon Center Trnava",
+    "city": "Trnava",
+    "street": "Radlinského 15",
+    "country": "Slovakia",
+    "phone_number": "+421 902 666 888",
+    "email": "pokemon.center.trnava@info.sk",
+    "specialization": "Rock, Ground",
+    "created_at": "2025-02-15T12:10:35.876+0000",
+    "_class": "com.sbelusky.microservices.pokemon_center_service.model.PokemonCenter"
+  },
+  {
+    "_id": 7,
+    "title": "Pokemon Center Banská Bystrica",
+    "city": "Banská Bystrica",
+    "street": "Zvolenská cesta 32",
+    "country": "Slovakia",
+    "phone_number": "+421 944 777 999",
+    "email": "pokemon.center.bb@info.sk",
+    "specialization": "Ice, Dark",
+    "created_at": "2025-02-16T11:30:10.654+0000",
+    "_class": "com.sbelusky.microservices.pokemon_center_service.model.PokemonCenter"
+  },
+  {
+    "_id": 8,
+    "title": "Pokemon Center Trenčín",
+    "city": "Trenčín",
+    "street": "Hurbanova 21",
+    "country": "Slovakia",
+    "phone_number": "+421 902 888 000",
+    "email": "pokemon.center.trencin@info.sk",
+    "specialization": "Flying, Steel",
+    "created_at": "2025-02-17T15:55:25.789+0000",
+    "_class": "com.sbelusky.microservices.pokemon_center_service.model.PokemonCenter"
+  },
+  {
+    "_id": 9,
+    "title": "Pokemon Center Poprad",
+    "city": "Poprad",
+    "street": "Tatranská 88",
+    "country": "Slovakia",
+    "phone_number": "+421 948 999 111",
+    "email": "pokemon.center.poprad@info.sk",
+    "specialization": "Poison, Normal",
+    "created_at": "2025-02-18T18:20:40.321+0000",
+    "_class": "com.sbelusky.microservices.pokemon_center_service.model.PokemonCenter"
+  }
+]
